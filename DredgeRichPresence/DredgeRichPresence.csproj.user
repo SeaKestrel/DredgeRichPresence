@@ -1,0 +1,6 @@
+<Project>
+	<PropertyGroup>
+		<DredgePath>F:\SteamLibrary\steamapps\common\DREDGE</DredgePath>
+		<OutputPath>$(DredgePath)\Mods\DaSea.DredgeRichPresence</OutputPath>
+	</PropertyGroup>
+</Project>
