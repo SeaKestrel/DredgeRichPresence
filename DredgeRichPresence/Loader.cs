@@ -1,5 +1,4 @@
-﻿using DredgeRichPresence.Libs;
-using HarmonyLib;
+﻿using HarmonyLib;
 using UnityEngine;
 
 namespace DredgeRichPresence
@@ -13,9 +12,8 @@ namespace DredgeRichPresence
 		{
 			var gameObject = new GameObject(nameof(DredgeRichPresence));
 			gameObject.AddComponent<DredgeRichPresence>();
-			gameObject.AddComponent<CustomSceneManager>();
 			GameObject.DontDestroyOnLoad(gameObject);
-            new Harmony(nameof(DredgeRichPresence)).PatchAll();
-        }
+			new Harmony(nameof(DredgeRichPresence)).PatchAll();
+		}
 	}
 }

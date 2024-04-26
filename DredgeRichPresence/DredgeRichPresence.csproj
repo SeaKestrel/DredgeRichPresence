@@ -26,8 +26,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="DredgeGameLibs" Version="1.3.0" />
-		<PackageReference Include="Winch" Version="0.2.3" />
+		<PackageReference Include="DredgeGameLibs" Version="1.4.2" />
+		<PackageReference Include="Winch" Version="0.3.1" />
 		<PackageReference Include="DiscordRichPresence" Version="1.2.1.24">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</PackageReference>
@@ -43,25 +43,6 @@
 	  <Reference Include="Winch">
 	    <HintPath>..\..\..\..\SteamLibrary\steamapps\common\DREDGE\Winch.dll</HintPath>
 	  </Reference>
-	</ItemGroup>
-
-	<ItemGroup>
-		<None Update="Assets\Items\Engines\moredredge.bigengine.json">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</None>
-		<None Update="Assets\Localization\en.json">
-		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</None>
-		<None Update="Assets\Textures\moredredge.bigengine.png">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</None>
-		<None Update="Assets\Localization\fr.json">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</None>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Assets\Items\Books\" />
 	</ItemGroup>
 
 </Project>

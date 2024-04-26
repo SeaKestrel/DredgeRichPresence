@@ -1,8 +1,8 @@
 {
 	"Name": "DredgeRichPresence",
 	"ModGUID": "DaSea.DredgeRichPresence",
-	"Version": "0.0.1",
+	"Version": "1.1.0",
 	"ModAssembly": "DredgeRichPresence.dll",
-	"MinWinchVersion": "0.2.3",
+	"MinWinchVersion": "0.3.1",
 	"Entrypoint": "DredgeRichPresence.Loader/Initialize"
 }
