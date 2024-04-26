@@ -100,6 +100,9 @@ namespace DredgeRichPresence
 			richPresences.Add("dock_steel_point", new RichPresence() { State = "Steel Point", Details = "Docked", Assets = new Assets() { LargeImageKey = "the_marrows", LargeImageText = "Docked at Steel Point", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
 			//richPresences.Add("dock_greater_marrow", new RichPresence() { State = "Greater Marrow", Details = "Docked", Assets = new Assets() { LargeImageKey = "the_marrows", LargeImageText = "Docked at the Greater Marrow" } , Timestamps = timeStarted });
 
+			// Open Ocean
+			richPresences.Add("dock_photographer_camp", new RichPresence() { State = "Expedition Site", Details = "Docked", Assets = new Assets() { LargeImageKey = "open_ocean", LargeImageText = "Docked at the Expedition Site", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
+
 			// Gale Cliffs
 			richPresences.Add("dock_old_mayor_gc", new RichPresence() { State = "Gale Cliffs' Old Camp", Details = "Docked", Assets = new Assets() { LargeImageKey = "gale_cliffs", LargeImageText = "Docked at the Gale Cliffs' Old Camp", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
 			richPresences.Add("dock_pontoon_gc", new RichPresence() { State = "Dusty Pontoon", Details = "Docked", Assets = new Assets() { LargeImageKey = "gale_cliffs", LargeImageText = "Docked at the Gale Cliffs' Pontoon", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
