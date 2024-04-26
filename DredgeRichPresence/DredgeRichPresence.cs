@@ -86,7 +86,7 @@ namespace DredgeRichPresence
 			richPresences.Add("gale_cliffs", new RichPresence() { State = "Gale Cliffs", Details = "Sailing", Assets = new Assets() { LargeImageKey = "gale_cliffs", LargeImageText = "at Gale Cliffs", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
 			richPresences.Add("twisted_strand", new RichPresence() { State = "Twisted Strand", Details = "Sailing", Assets = new Assets() { LargeImageKey = "twisted_strand", LargeImageText = "at Twisted Strand", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
 			richPresences.Add("devils_spine", new RichPresence() { State = "Devil's Spine", Details = "Sailing", Assets = new Assets() { LargeImageKey = "devils_spine", LargeImageText = "at Devil's Spine", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
-			richPresences.Add("stellar_bassin", new RichPresence() { State = "Stellar Bassin", Details = "Sailing", Assets = new Assets() { LargeImageKey = "bassin_astral", LargeImageText = "at Stellar Bassin", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
+			richPresences.Add("stellar_basin", new RichPresence() { State = "Stellar Basin", Details = "Sailing", Assets = new Assets() { LargeImageKey = "bassin_astral", LargeImageText = "at Stellar Basin", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
 
 			/*
 			 * Docks
@@ -116,8 +116,8 @@ namespace DredgeRichPresence
 			richPresences.Add("dock_pontoon_ts", new RichPresence() { State = "Rickety Pontoon", Details = "Docked", Assets = new Assets() { LargeImageKey = "twisted_strand", LargeImageText = "Docked at the Rickety Pontoon", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
 			richPresences.Add("dock_soldier_camp", new RichPresence() { State = "Camp", Details = "Docked", Assets = new Assets() { LargeImageKey = "twisted_strand", LargeImageText = "Docked at the Soldier Camp", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
 
-			// Stellar Bassin
-			richPresences.Add("dock_old_mayor_sb", new RichPresence() { State = "Stellar Bassin Old Camp", Details = "Docked", Assets = new Assets() { LargeImageKey = "bassin_astral", LargeImageText = "Docked at the Astral Bassin Old Camp", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
+			// Stellar Basin
+			richPresences.Add("dock_old_mayor_sb", new RichPresence() { State = "Stellar Basin Old Camp", Details = "Docked", Assets = new Assets() { LargeImageKey = "bassin_astral", LargeImageText = "Docked at the Stellar Basin Old Camp", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
 			richPresences.Add("dock_pontoon_sb", new RichPresence() { State = "Starlight Pontoon", Details = "Docked", Assets = new Assets() { LargeImageKey = "bassin_astral", LargeImageText = "Docked at the Starlight Pontoon", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
 			richPresences.Add("dock_old_fort", new RichPresence() { State = "Old Fortress", Details = "Docked", Assets = new Assets() { LargeImageKey = "bassin_astral", LargeImageText = "Docked at the Old Fortress", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
 			richPresences.Add("dock_research_pontoon", new RichPresence() { State = "Research Outpost", Details = "Docked", Assets = new Assets() { LargeImageKey = "bassin_astral", LargeImageText = "Docked at the Research Outpost", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
