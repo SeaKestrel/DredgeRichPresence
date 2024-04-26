@@ -88,6 +88,7 @@ namespace DredgeRichPresence
 			richPresences.Add("twisted_strand", new RichPresence() { State = "Twisted Strand", Details = "Sailing", Assets = new Assets() { LargeImageKey = "twisted_strand", LargeImageText = "at Twisted Strand", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
 			richPresences.Add("devils_spine", new RichPresence() { State = "Devil's Spine", Details = "Sailing", Assets = new Assets() { LargeImageKey = "devils_spine", LargeImageText = "at Devil's Spine", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
 			richPresences.Add("stellar_basin", new RichPresence() { State = "Stellar Basin", Details = "Sailing", Assets = new Assets() { LargeImageKey = "bassin_astral", LargeImageText = "at Stellar Basin", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
+			richPresences.Add("pale_reach", new RichPresence() { State = "The Pale Reach", Details = "Sailing", Assets = new Assets() { LargeImageKey = "pale_reach", LargeImageText = "at The Pale Reach", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
 
 			/*
 			 * Docks
@@ -125,6 +126,13 @@ namespace DredgeRichPresence
 			richPresences.Add("dock_pontoon_sb", new RichPresence() { State = "Starlight Pontoon", Details = "Docked", Assets = new Assets() { LargeImageKey = "bassin_astral", LargeImageText = "Docked at the Starlight Pontoon", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
 			richPresences.Add("dock_old_fort", new RichPresence() { State = "Old Fortress", Details = "Docked", Assets = new Assets() { LargeImageKey = "bassin_astral", LargeImageText = "Docked at the Old Fortress", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
 			richPresences.Add("dock_research_pontoon", new RichPresence() { State = "Research Outpost", Details = "Docked", Assets = new Assets() { LargeImageKey = "bassin_astral", LargeImageText = "Docked at the Research Outpost", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
+
+			// Pale Reach
+			richPresences.Add("dock_pontoon_tpr", new RichPresence() { State = "Bleak Pontoon", Details = "Docked", Assets = new Assets() { LargeImageKey = "pale_reach", LargeImageText = "Docked at the Bleak Pontoon", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
+			richPresences.Add("dock_tpr_middle", new RichPresence() { State = "Pale Reach Central Camp", Details = "Docked", Assets = new Assets() { LargeImageKey = "pale_reach", LargeImageText = "Docked at the Pale Reach's Central Camp", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
+			richPresences.Add("dock_tpr_west", new RichPresence() { State = "Western Bearing", Details = "Docked", Assets = new Assets() { LargeImageKey = "pale_reach", LargeImageText = "Docked at the Pale Reach's Western Bearing", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
+			richPresences.Add("dock_tpr_south", new RichPresence() { State = "Southern Locus", Details = "Docked", Assets = new Assets() { LargeImageKey = "pale_reach", LargeImageText = "Docked at the Pale Reach's Southern Locus", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
+			richPresences.Add("dock_tpr_east", new RichPresence() { State = "Eastern Terminus", Details = "Docked", Assets = new Assets() { LargeImageKey = "pale_reach", LargeImageText = "Docked at the Pale Reach's Eastern Terminus", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
 		}
 
 		/// <summary>
