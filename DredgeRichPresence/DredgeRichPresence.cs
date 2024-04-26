@@ -182,7 +182,7 @@ namespace DredgeRichPresence
 				return;
 			}
 			string name = dock.dockData.id.Replace(".", "_").Replace("-", "_"); // parsing the dock's name (dock.greater-marrow -> dock_greater_marrow)
-			client.SetPresence(richPresences[name]); // Setting the presence from the richPresences list
+			SetRichPresence(name); // Setting the presence from the richPresences list
 		}
 
 		/// <summary>
@@ -191,7 +191,14 @@ namespace DredgeRichPresence
 		/// <param name="id">the id of the presence</param>
 		private void SetRichPresence(string id)
 		{
-			client.SetPresence(richPresences[id]); // Set the presence
+			if (richPresences.ContainsKey(id))
+			{
+				client.SetPresence(richPresences[id]); // Set the presence
+			}
+			else
+			{
+				WinchCore.Log.Error($"Tried to set presence but id \"{id}\" does not exist.");
+			}
 		}
 	}
 }
