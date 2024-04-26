@@ -45,23 +45,4 @@
 	  </Reference>
 	</ItemGroup>
 
-	<ItemGroup>
-		<None Update="Assets\Items\Engines\moredredge.bigengine.json">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</None>
-		<None Update="Assets\Localization\en.json">
-		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</None>
-		<None Update="Assets\Textures\moredredge.bigengine.png">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</None>
-		<None Update="Assets\Localization\fr.json">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</None>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Assets\Items\Books\" />
-	</ItemGroup>
-
 </Project>
