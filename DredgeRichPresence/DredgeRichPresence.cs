@@ -35,6 +35,7 @@ namespace DredgeRichPresence
 			Instance = this;
 
 			GameManager.Instance.OnGameStarted += GameStarted;
+			GameManager.Instance.OnGameEnded += GameEnded;
 
 			InGame = false;
 
@@ -60,7 +61,7 @@ namespace DredgeRichPresence
 			WinchCore.Log.Info("Presences initialized.");
 
 			// Setting the presence for the main menu
-			client.SetPresence(richPresences["main_menu"]);
+			SetRichPresence("main_menu");
 
 			OnZoneChanged += ZoneChangedHandler;
 
@@ -145,6 +146,17 @@ namespace DredgeRichPresence
 			GameEvents.Instance.OnPlayerDockedToggled += PlayerDockedEvent; // Adding my handler to the original event
 
 			PlayerDockedEvent(GameManager.Instance.Player.CurrentDock); // Calling the function to set the presence
+		}
+
+		/// <summary>
+		/// This function handles the OnGameEnded event
+		/// </summary>
+		private void GameEnded()
+		{
+			InGame = false;
+
+			// Setting the presence for the main menu
+			SetRichPresence("main_menu");
 		}
 
 		/// <summary>
