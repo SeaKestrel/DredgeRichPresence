@@ -89,6 +89,7 @@ namespace DredgeRichPresence
 			richPresences.Add("devils_spine", new RichPresence() { State = "Devil's Spine", Details = "Sailing", Assets = new Assets() { LargeImageKey = "devils_spine", LargeImageText = "at Devil's Spine", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
 			richPresences.Add("stellar_basin", new RichPresence() { State = "Stellar Basin", Details = "Sailing", Assets = new Assets() { LargeImageKey = "bassin_astral", LargeImageText = "at Stellar Basin", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
 			richPresences.Add("pale_reach", new RichPresence() { State = "The Pale Reach", Details = "Sailing", Assets = new Assets() { LargeImageKey = "pale_reach", LargeImageText = "at The Pale Reach", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
+			richPresences.Add("iron_rig", new RichPresence() { State = "The Iron Rig", Details = "Sailing", Assets = new Assets() { LargeImageKey = "iron_rig", LargeImageText = "at The Iron Rig", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
 
 			/*
 			 * Docks
@@ -133,6 +134,9 @@ namespace DredgeRichPresence
 			richPresences.Add("dock_tpr_west", new RichPresence() { State = "Western Bearing", Details = "Docked", Assets = new Assets() { LargeImageKey = "pale_reach", LargeImageText = "Docked at the Pale Reach's Western Bearing", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
 			richPresences.Add("dock_tpr_south", new RichPresence() { State = "Southern Locus", Details = "Docked", Assets = new Assets() { LargeImageKey = "pale_reach", LargeImageText = "Docked at the Pale Reach's Southern Locus", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
 			richPresences.Add("dock_tpr_east", new RichPresence() { State = "Eastern Terminus", Details = "Docked", Assets = new Assets() { LargeImageKey = "pale_reach", LargeImageText = "Docked at the Pale Reach's Eastern Terminus", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
+
+			// The Iron Rig
+			richPresences.Add("dock_the_iron_rig", new RichPresence() { State = "The Iron Rig", Details = "Docked", Assets = new Assets() { LargeImageKey = "iron_rig", LargeImageText = "Docked at The Iron Rig", SmallImageKey = "main_menu" }, Timestamps = timeStarted });
 		}
 
 		/// <summary>
