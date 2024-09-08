@@ -11,8 +11,8 @@ on:
           type: boolean
 
 env:
-    PROJ_USERNAME: YourName
-    PROJ_NAME: WinchModTemplate
+    PROJ_USERNAME: SeaKestrel
+    PROJ_NAME: DredgeRichPresence
 
 jobs:
     pre_job:
