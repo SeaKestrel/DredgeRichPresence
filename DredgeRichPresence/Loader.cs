@@ -13,7 +13,6 @@ namespace DredgeRichPresence
 			var gameObject = new GameObject(nameof(DredgeRichPresence));
 			gameObject.AddComponent<DredgeRichPresence>();
 			GameObject.DontDestroyOnLoad(gameObject);
-			new Harmony(nameof(DredgeRichPresence)).PatchAll();
 		}
 	}
 }
