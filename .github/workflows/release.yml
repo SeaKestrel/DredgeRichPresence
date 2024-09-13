@@ -11,7 +11,7 @@ on:
           type: boolean
 
 env:
-    PROJ_USERNAME: SeaKestrel
+    PROJ_USERNAME: DaSea
     PROJ_NAME: DredgeRichPresence
 
 jobs:
